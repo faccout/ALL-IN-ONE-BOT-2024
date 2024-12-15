@@ -56,7 +56,7 @@ module.exports = (client) => {
                     thumbnailURL: track.info.thumbnail,
                     songTitle: track.info.title,
                     songArtist: track.info.author,
-                    trackRequester: requesters.get(trackUri), // Displaying the username of who requested the song
+                    trackRequester: requesters.get, // Displaying the username of who requested the song
                     fontPath: path.join(__dirname, "../UI", "fonts", "AfacadFlux-Regular.ttf"), // Your custom font
                 });
 
@@ -66,7 +66,7 @@ module.exports = (client) => {
 
                 // Sending an embed with the song details and card image
                 const embed = new EmbedBuilder()
-                    .setAuthor({ name: "Now Streaming", iconURL: musicIcons.playerIcon, url: "https://discord.gg/xQF9f9yUEM" })
+                    .setAuthor({ name: "Now Streaming", iconURL: musicIcons.playerIcon, url: "https://discord.gg/Wbc5qWqHdr" })
                     .setDescription(`- Song name: **${track.info.title}**\n- Author: **${track.info.author}**`)
                     .setImage('attachment://songcard.png')
                     .setFooter({ text: 'Let the Beat Drop!', iconURL: musicIcons.footerIcon })
@@ -107,7 +107,7 @@ module.exports = (client) => {
                 .setAuthor({
                     name: "Queue is Empty",
                     iconURL: musicIcons.alertIcon,
-                    url: "https://discord.gg/2gzCDFVhUP"
+                    url: "https://discord.gg/Wbc5qWqHdr"
                 })
                 .setDescription('**Leaving voice channel!**')
                 .setFooter({ text: 'Let the Beat Drop!', iconURL: musicIcons.footerIcon })
