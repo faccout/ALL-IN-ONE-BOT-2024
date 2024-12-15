@@ -141,25 +141,25 @@ module.exports = {
                             page.author.iconURL = "https://discord.com/channels/1153692681961230370/1199719710313427024";
                             break;
                         case 'basic':
-                            page.image = "f";
+                            page.image = "https://cdn.discordapp.com/attachments/1290281849075007519/1317847026830151710/Picsart_24-12-15_16-23-25-851.jpg?ex=67602c2f&is=675edaaf&hm=4426f289f0b3ed750905e44a2b0a20fd53d8f58afbefc0b94e3a9e9519110137&";
                             page.color = "#99ccff";
                             page.thumbnail = "https://cdn.discordapp.com/attachments/1290281849075007519/1317847042235699312/Picsart_24-12-15_16-20-34-861.png?ex=67602c33&is=675edab3&hm=93b32127e8c2112b460c9e541371a24217d10ebc524c0b969cf735239187d999&";
                             page.author.iconURL = "https://discord.com/channels/1153692681961230370/1199719710313427024";
                             break;
                         case 'fun':
-                            page.image = "f";
+                            page.image = "https://cdn.discordapp.com/attachments/1290281849075007519/1317847026830151710/Picsart_24-12-15_16-23-25-851.jpg?ex=67602c2f&is=675edaaf&hm=4426f289f0b3ed750905e44a2b0a20fd53d8f58afbefc0b94e3a9e9519110137&";
                             page.color = "#ffcc00";
                             page.thumbnail = "https://cdn.discordapp.com/attachments/1290281849075007519/1317847042235699312/Picsart_24-12-15_16-20-34-861.png?ex=67602c33&is=675edab3&hm=93b32127e8c2112b460c9e541371a24217d10ebc524c0b969cf735239187d999&";
                             page.author.iconURL = "https://discord.com/channels/1153692681961230370/1199719710313427024";
                             break;
                         case 'moderation':
-                            page.image = "fh";
+                            page.image = "https://cdn.discordapp.com/attachments/1290281849075007519/1317847026830151710/Picsart_24-12-15_16-23-25-851.jpg?ex=67602c2f&is=675edaaf&hm=4426f289f0b3ed750905e44a2b0a20fd53d8f58afbefc0b94e3a9e9519110137&";
                             page.color = "#ff0000";
                             page.thumbnail = "https://cdn.discordapp.com/attachments/1290281849075007519/1317847042235699312/Picsart_24-12-15_16-20-34-861.png?ex=67602c33&is=675edab3&hm=93b32127e8c2112b460c9e541371a24217d10ebc524c0b969cf735239187d999&";
                             page.author.iconURL = "https://discord.com/channels/1153692681961230370/1199719710313427024";
                             break;
                         case 'utility':
-                            page.image = "fh";
+                            page.image = "https://cdn.discordapp.com/attachments/1290281849075007519/1317847026830151710/Picsart_24-12-15_16-23-25-851.jpg?ex=67602c2f&is=675edaaf&hm=4426f289f0b3ed750905e44a2b0a20fd53d8f58afbefc0b94e3a9e9519110137&";
                             page.color = "#00cc99";
                             page.thumbnail = "https://cdn.discordapp.com/attachments/1290281849075007519/1317847042235699312/Picsart_24-12-15_16-20-34-861.png?ex=67602c33&is=675edab3&hm=93b32127e8c2112b460c9e541371a24217d10ebc524c0b969cf735239187d999&";
                             page.author.iconURL = "https://discord.com/channels/1153692681961230370/1199719710313427024";
@@ -171,7 +171,7 @@ module.exports = {
                             page.author.iconURL = "https://discord.com/channels/1153692681961230370/1199719710313427024";
                             break;
                         case 'setups':
-                            page.image = "h";
+                            page.image = "https://cdn.discordapp.com/attachments/1290281849075007519/1317847026830151710/Picsart_24-12-15_16-23-25-851.jpg?ex=67602c2f&is=675edaaf&hm=4426f289f0b3ed750905e44a2b0a20fd53d8f58afbefc0b94e3a9e9519110137&";
                             page.color = "#ff0000";
                             page.thumbnail = "https://cdn.discordapp.com/attachments/1290281849075007519/1317847042235699312/Picsart_24-12-15_16-20-34-861.png?ex=67602c33&is=675edab3&hm=93b32127e8c2112b460c9e541371a24217d10ebc524c0b969cf735239187d999&";
                             page.author.iconURL = "https://discord.com/channels/1153692681961230370/1199719710313427024";
