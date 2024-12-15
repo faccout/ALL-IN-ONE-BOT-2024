@@ -6,7 +6,7 @@ const { serverConfigCollection } = require('../../mongodb');
 const lang = require('../../events/loadLanguage');
 
 module.exports = {
-    name: 'mhelp', 
+    name: 'help', 
     description: lang.mhelpDescription,
     async execute(message) { 
         const serverId = message.guild.id;
