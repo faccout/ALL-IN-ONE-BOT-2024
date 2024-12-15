@@ -98,7 +98,7 @@ module.exports = {
                     thumbnail: "https://cdn.discordapp.com/attachments/1316818681610637362/1317581637348757615/spella_logo.png?ex=675f3505&is=675de385&hm=0d548539029ab177e695f3f136278340520f8255d5d7b7ed3cc64d4933ab5671&",
                     author: {
                         name: 'Bolt',
-                        iconURL: "https://discord.com/channels/1153692681961230370/1199719710313427024",
+                        iconURL: "https://cdn.discordapp.com/attachments/1230824451990622299/1297599083694919741/se.gif?ex=675fae11&is=675e5c91&hm=00b44a2bf6e439894b1a50f6024285e6be4186643076f58796f086b60b82d15e&",
                         url: "https://discord.gg/uwVGgwHV3T"
                     }
                 });
