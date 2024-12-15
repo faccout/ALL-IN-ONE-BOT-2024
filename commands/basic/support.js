@@ -22,10 +22,8 @@ module.exports = {
                 ➡️ **${lang.supportDescriptionTitle}:**
                 - ${lang.discord} - ${supportServerLink}
                 
-                ➡️ **${lang.followUsOn}:**
-                - ${lang.github} - ${githubLink}
-                - ${lang.replit} - ${replitLink}
-                - ${lang.youtube} - ${youtubeLink}
+                ➡️ **${lang.followUsOn}:https://spellaexp.my.canva.site/web
+                
             `)
             .setImage(lang.supportImageURL)
             .setTimestamp();
