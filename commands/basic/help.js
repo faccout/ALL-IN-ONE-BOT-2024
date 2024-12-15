@@ -93,9 +93,9 @@ module.exports = {
                         `**Enabled Categories:** ${enabledCategoriesList.join(', ')}\n`+
                         `**Disabled Categories:** ${disabledCategoriesList.join(', ')}\n`,
                     ],
-                    image: "https://cdn.discordapp.com/attachments/1273947742724685875/1277995152543055932/0DC0BBD1-3E1D-4BA5-94E4-FA16355D48CA.jpg?ex=675ee4bc&is=675d933c&hm=93557f4c2495fb7dedf6ace056c21d26c7d69d6523092898c6f9beea81f8a1aa&",
-                    color: "#3498db",
-                    thumbnail: "https://cdn.discordapp.com/attachments/1273947742724685875/1277995111422361631/59CB4C83-CB04-428B-BF26-6E82A1981F83.png?ex=675f8d72&is=675e3bf2&hm=1e7f6b79c4319d48ebe0fddebbba0ece8e609e5b1774568ad4623512e0635636&",
+                    image: "https://cdn.discordapp.com/attachments/1290281849075007519/1317847026830151710/Picsart_24-12-15_16-23-25-851.jpg?ex=67602c2f&is=675edaaf&hm=4426f289f0b3ed750905e44a2b0a20fd53d8f58afbefc0b94e3a9e9519110137&",
+                    color: "#FF0000",
+                    thumbnail: "",
                     author: {
                         name: 'Bolt',
                         iconURL: "https://cdn.discordapp.com/attachments/1230824451990622299/1297599083694919741/se.gif?ex=675fae11&is=675e5c91&hm=00b44a2bf6e439894b1a50f6024285e6be4186643076f58796f086b60b82d15e&",
