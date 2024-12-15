@@ -7,7 +7,7 @@
     "excessCommands": {
         "utility": true,
         "other": true,
-        "hentai": true,
+        "hentai": false,
         "lavalink": true,
         "troll": true
     },
@@ -15,7 +15,7 @@
         "anime": true,
         "basic": true,
         "utility": true,
-        "moderation": true,
+        "moderation": false,
         "fun": true,
         "distube music": true,
         "setups": true
