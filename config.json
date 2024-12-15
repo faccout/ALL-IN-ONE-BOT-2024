@@ -15,7 +15,7 @@
         "anime": true,
         "basic": true,
         "utility": true,
-        "moderation": false,
+        "moderation": true,
         "fun": true,
         "distube music": true,
         "setups": true
