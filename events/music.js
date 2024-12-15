@@ -70,7 +70,7 @@ module.exports = (client) => {
                     .setDescription(`- Song name: **${track.info.title}**\n- Author: **${track.info.author}**`)
                     .setImage('attachment://songcard.png')
                     .setFooter({ text: 'Let the Beat Drop!', iconURL: musicIcons.footerIcon })
-                    .setColor('#FF00FF');
+                    .setColor('#245c5c');
 
                 const buttonsRow = new ActionRowBuilder().addComponents(
                     new ButtonBuilder().setCustomId('volume_up').setEmoji('🔊').setStyle(ButtonStyle.Secondary),
@@ -111,7 +111,7 @@ module.exports = (client) => {
                 })
                 .setDescription('**Leaving voice channel!**')
                 .setFooter({ text: 'Let the Beat Drop!', iconURL: musicIcons.footerIcon })
-                .setColor('#FFFF00');
+                .setColor('#ff1100');
             channel.send({ embeds: [embed] });
             player.destroy();
         });
