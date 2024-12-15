@@ -5,7 +5,10 @@ module.exports = {
     once: true,
     execute(client) {
   
-        const activities = [NONE];
+        const activities = [
+            { name: 'Spella', type: ActivityType.Watching },
+            
+        ];
 
      
         const statuses = ['online'];
