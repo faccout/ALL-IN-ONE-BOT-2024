@@ -141,25 +141,25 @@ module.exports = {
                             page.author.iconURL = "https://discord.com/channels/1153692681961230370/1199719710313427024";
                             break;
                         case 'basic':
-                            page.image = "";
+                            page.image = "f";
                             page.color = "#99ccff";
                             page.thumbnail = "https://cdn.discordapp.com/attachments/1290281849075007519/1317847042235699312/Picsart_24-12-15_16-20-34-861.png?ex=67602c33&is=675edab3&hm=93b32127e8c2112b460c9e541371a24217d10ebc524c0b969cf735239187d999&";
                             page.author.iconURL = "https://discord.com/channels/1153692681961230370/1199719710313427024";
                             break;
                         case 'fun':
-                            page.image = "";
+                            page.image = "f";
                             page.color = "#ffcc00";
                             page.thumbnail = "https://cdn.discordapp.com/attachments/1290281849075007519/1317847042235699312/Picsart_24-12-15_16-20-34-861.png?ex=67602c33&is=675edab3&hm=93b32127e8c2112b460c9e541371a24217d10ebc524c0b969cf735239187d999&";
                             page.author.iconURL = "https://discord.com/channels/1153692681961230370/1199719710313427024";
                             break;
                         case 'moderation':
-                            page.image = "";
+                            page.image = "fh";
                             page.color = "#ff0000";
                             page.thumbnail = "https://cdn.discordapp.com/attachments/1290281849075007519/1317847042235699312/Picsart_24-12-15_16-20-34-861.png?ex=67602c33&is=675edab3&hm=93b32127e8c2112b460c9e541371a24217d10ebc524c0b969cf735239187d999&";
                             page.author.iconURL = "https://discord.com/channels/1153692681961230370/1199719710313427024";
                             break;
                         case 'utility':
-                            page.image = "";
+                            page.image = "fh";
                             page.color = "#00cc99";
                             page.thumbnail = "https://cdn.discordapp.com/attachments/1290281849075007519/1317847042235699312/Picsart_24-12-15_16-20-34-861.png?ex=67602c33&is=675edab3&hm=93b32127e8c2112b460c9e541371a24217d10ebc524c0b969cf735239187d999&";
                             page.author.iconURL = "https://discord.com/channels/1153692681961230370/1199719710313427024";
@@ -171,7 +171,7 @@ module.exports = {
                             page.author.iconURL = "https://discord.com/channels/1153692681961230370/1199719710313427024";
                             break;
                         case 'setups':
-                            page.image = "";
+                            page.image = "h";
                             page.color = "#ff0000";
                             page.thumbnail = "https://cdn.discordapp.com/attachments/1290281849075007519/1317847042235699312/Picsart_24-12-15_16-20-34-861.png?ex=67602c33&is=675edab3&hm=93b32127e8c2112b460c9e541371a24217d10ebc524c0b969cf735239187d999&";
                             page.author.iconURL = "https://discord.com/channels/1153692681961230370/1199719710313427024";
