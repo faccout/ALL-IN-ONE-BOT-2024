@@ -22,7 +22,7 @@ module.exports = {
                 ➡️ **${lang.supportDescriptionTitle}:**
                 - ${lang.discord} - ${supportServerLink}
                 
-                ➡️ **${lang.followUsOn}:https://spellaexp.my.canva.site/web
+                ➡️ **${lang.followUsOn}: https://spellaexp.my.canva.site/web**
                 
             `)
             .setImage(lang.supportImageURL)
