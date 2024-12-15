@@ -95,7 +95,7 @@ module.exports = {
                     ],
                     image: "https://cdn.discordapp.com/attachments/1290281849075007519/1317847026830151710/Picsart_24-12-15_16-23-25-851.jpg?ex=67602c2f&is=675edaaf&hm=4426f289f0b3ed750905e44a2b0a20fd53d8f58afbefc0b94e3a9e9519110137&",
                     color: "#FF0000",
-                    thumbnail: "",
+                    thumbnail: "https://cdn.discordapp.com/attachments/1290281849075007519/1317847042235699312/Picsart_24-12-15_16-20-34-861.png?ex=67602c33&is=675edab3&hm=93b32127e8c2112b460c9e541371a24217d10ebc524c0b969cf735239187d999&",
                     author: {
                         name: 'Bolt',
                         iconURL: "https://cdn.discordapp.com/attachments/1230824451990622299/1297599083694919741/se.gif?ex=675fae11&is=675e5c91&hm=00b44a2bf6e439894b1a50f6024285e6be4186643076f58796f086b60b82d15e&",
