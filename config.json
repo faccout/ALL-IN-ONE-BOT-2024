@@ -22,9 +22,9 @@
     },
      "lavalink": {
         "lavalink": {
-            "host": "45.89.99.118",
-            "port": 8000,
-            "password": "winkle@team",
+            "host": "lava.catfein.com",
+            "port": 4000,
+            "password": "catfein",
             "secure": false
         }
     }, 
