@@ -6,7 +6,7 @@ module.exports = {
     execute(client) {
   
         const activities = [
-            {  },
+            { name: '', type: ActivityType. }, 
             
         ];
 
