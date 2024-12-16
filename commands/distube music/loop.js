@@ -70,7 +70,7 @@ async function executeLoop(source) {
             .setAuthor({ 
                 name: lang.loopNoQueueTitle, 
                 iconURL: musicIcons.wrongIcon,
-                url: "https://discord.gg/xQF9f9yUEM"
+                url: "https://discord.gg/KNjWAW3SPb"
             })
             .setFooter({ text: lang.loopFooterText, iconURL: musicIcons.footerIcon })
             .setDescription(lang.loopNoQueue);
@@ -88,7 +88,7 @@ async function executeLoop(source) {
         .setAuthor({ 
             name: lang.loopTitle, 
             iconURL: musicIcons.loopIcon,
-            url: "https://discord.gg/xQF9f9yUEM"
+            url: "https://discord.gg/KNjWAW3SPb"
         });
 
     if (loopMode === 'queue') {
