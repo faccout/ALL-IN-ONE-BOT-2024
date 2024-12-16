@@ -84,7 +84,7 @@ module.exports = {
                     title: 'Bot Information',
                     description: `Welcome to the help command! This bot provides a variety of commands to enhance your server experience. Below are the categories and the number of commands available in each.`,
                     commands: [
-                        `**💜 Bot Developers:** Spella team\n`+
+                        `**Bot Developer:** @mdmuhsin\n`+
                         `**Bot Version:** 1.1.0\n`+
                         `**Total Servers:** ${totalServers}\n`+
                         `**Total Members:** ${totalMembers}\n`+
@@ -242,7 +242,7 @@ module.exports = {
                     title: 'Bot Information',
                     description: `Welcome to the help command! This bot provides a variety of commands to enhance your server experience. Below are the categories and the number of commands available in each.`,
                     commands: [
-                        `**💜 Bot Developers:** Spella team\n`+
+                        `**Bot Developers:** @mdmuhsin\n`+
                         `**Bot Version:** 1.1.0\n`+
                         `**Total Servers:** ${totalServers}\n`+
                         `**Total Members:** ${totalMembers}\n`+
