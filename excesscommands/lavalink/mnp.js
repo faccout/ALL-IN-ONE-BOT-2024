@@ -25,7 +25,7 @@ module.exports = {
             .setAuthor({ 
                 name: lang.nowPlayingTitle, 
                 iconURL: musicIcons.playerIcon,
-                url: "https://discord.gg/xQF9f9yUEM"
+                url: "https://discord.gg/KNjWAW3SPb"
             })
             .setDescription(lang.nowPlayingDescription.replace('{trackTitle}', track.info.title))
             .setFooter({ text: lang.footerText, iconURL: musicIcons.footerIcon })
