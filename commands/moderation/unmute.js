@@ -41,7 +41,7 @@ module.exports = {
         .setAuthor({ 
             name: lang.unmutealertTitle,
             iconURL: cmdIcons.dotIcon,
-            url: "https://discord.gg/xQF9f9yUEM"
+            url: "https://discord.gg/KNjWAW3SPb"
         })
         .setDescription(lang.unmutealertDescription)
         .setTimestamp();
