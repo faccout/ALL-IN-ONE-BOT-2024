@@ -17,7 +17,7 @@ module.exports = {
             .setAuthor({
                 name: lang.stoppedTitle,
                 iconURL: musicIcons.stopIcon,
-                url: "https://discord.gg/xQF9f9yUEM"
+                url: "https://discord.gg/KNjWAW3SPb"
             })
             .setFooter({ text: lang.footerText, iconURL: musicIcons.footerIcon })
             .setDescription(lang.queueStoppedText);
