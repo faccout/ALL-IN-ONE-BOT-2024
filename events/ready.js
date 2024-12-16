@@ -5,8 +5,7 @@ module.exports = {
     once: true,
     execute(client) {
   
-        const activities = [
-            { name: 'NONE', type: ActivityType.NONE }, 
+
             
         ];
 
