@@ -12,12 +12,12 @@ module.exports = {
             };
 
             const gmt = getTime("Europe/London");
-            const est = getTime("America/New_York");
+            const gst = getTime("Asia/Dubai");
             const pst = getTime("America/Los_Angeles");
             const cst = getTime("America/Mexico_City");
             const aest = getTime("Australia/Sydney");
             const awst = getTime("Australia/Perth");
-            const kst = getTime("Asia/Seoul");
+            const ast = getTime("Asia/Riyadh");
             const ist = getTime("Asia/Kolkata");
 
             const embed = new EmbedBuilder()
