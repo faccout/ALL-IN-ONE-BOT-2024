@@ -18,7 +18,7 @@ module.exports = {
                 .setAuthor({
                     name: lang.volumeControlTitle,
                     iconURL: musicIcons.volumeIcon,
-                    url: "https://discord.gg/xQF9f9yUEM"
+                    url: "https://discord.gg/KNjWAW3SPb"
                 })
                 .setFooter({ text: lang.footerText, iconURL: musicIcons.footerIcon })
                 .setDescription(`${lang.currentVolumeText} ${player.volume}%`);
@@ -36,7 +36,7 @@ module.exports = {
             .setAuthor({
                 name: lang.volumeControlTitle,
                 iconURL: musicIcons.volumeIcon,
-                url: "https://discord.gg/xQF9f9yUEM"
+                url: "https://discord.gg/KNjWAW3SPb"
             })
             .setFooter({ text: lang.footerText, iconURL: musicIcons.footerIcon })
             .setDescription(`${lang.volumeSetText} ${volume}%`);
