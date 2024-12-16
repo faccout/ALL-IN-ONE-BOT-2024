@@ -5,10 +5,11 @@ module.exports = {
     once: true,
     execute(client) {
   
-
+        const activities = [
+            { name: 'Spella', type: ActivityType.Watching },
+            { name: 'Sonic','player', type: ActivityType.Playing },
             
         ];
-
      
         const statuses = ['online'];
 
