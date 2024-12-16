@@ -99,7 +99,7 @@ module.exports = {
                     author: {
                         name: 'Bolt',
                         iconURL: "https://cdn.discordapp.com/attachments/1230824451990622299/1297599083694919741/se.gif?ex=675fae11&is=675e5c91&hm=00b44a2bf6e439894b1a50f6024285e6be4186643076f58796f086b60b82d15e&",
-                        url: "https://discord.gg/Wbc5qWqHdr"
+                        url: "https://discord.gg/KNjWAW3SPb"
                     }
                 });
 
@@ -129,7 +129,7 @@ module.exports = {
                         author: {
                             name: `${category.charAt(0).toUpperCase() + category.slice(1)} Commands`,
                             iconURL: "",
-                            url: "https://discord.gg/uwVGgwHV3T"
+                            url: "https://discord.gg/KNjWAW3SPb"
                         }
                     };
 
@@ -257,7 +257,7 @@ module.exports = {
                     author: {
                         name: 'Bolt',
                         iconURL: "https://cdn.discordapp.com/attachments/1230824451990622299/1297599084236116039/user.gif?ex=675fae11&is=675e5c91&hm=6e042173bb439db7e5ea4285e0abac73b83dd7b86957a752d7fb5b5fb6d004b4&",
-                        url: "https://discord.gg/Wbc5qWqHdr"
+                        url: "https://discord.gg/KNjWAW3SPb"
                     }
                 });
 
@@ -289,7 +289,7 @@ module.exports = {
                         author: {
                             name: `${category.charAt(0).toUpperCase() + category.slice(1)} Commands`,
                             iconURL: "",
-                            url: "https://discord.gg/Wbc5qWqHdr"
+                            url: "https://discord.gg/KNjWAW3SPb"
                         }
                     };
 
