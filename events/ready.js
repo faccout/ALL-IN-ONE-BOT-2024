@@ -7,11 +7,12 @@ module.exports = {
   
         const activities = [
             { name: 'Spella', type: ActivityType.Watching },
-            { name: 'Sonic','player', type: ActivityType.Playing },
+            { name: 'Sonic', type: ActivityType.Playing },
             
         ];
+
      
-        const statuses = ['online'];
+        const statuses = ['online', 'idle', 'dnd'];
 
      
         let currentActivityIndex = 0;
