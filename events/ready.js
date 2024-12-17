@@ -6,25 +6,26 @@ module.exports = {
     execute(client) {
   
         const activities = [
-            { name: 'Sonic', type: ActivityType.Playing},
-            
+            { name: 'Netflix', type: ActivityType.Watching },
+            { name: 'GTA VI', type: ActivityType.Playing },
+            { name: 'on YouTube', type: ActivityType.Streaming },
+            { name: 'Spotify', type: ActivityType.Listening },
         ];
 
      
-        const statuses = ['online'];
+        const statuses = ['online', 'idle', 'dnd'];
 
      
         let currentActivityIndex = 0;
         let currentStatusIndex = 0;
 
  
-        
-
-          function setActivityAndStatus() {
+        function setActivityAndStatus() {
         
             const activity = activities[currentActivityIndex];
             const status = statuses[currentStatusIndex];
-              
+
+          
             client.user.setPresence({
                 activities: [activity],
                 status: status,
@@ -36,5 +37,13 @@ module.exports = {
         }
 
         
-       
+        setTimeout(() => {
+            setActivityAndStatus();
+            console.log('\x1b[31m[ CORE ]\x1b[0m \x1b[32m%s\x1b[0m', 'Bot Activity Set Successful ✅');
+        }, 2000);
+
+        setInterval(() => {
+            setActivityAndStatus();
+        }, 6000);
+    },
 };
