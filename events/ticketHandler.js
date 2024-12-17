@@ -137,7 +137,7 @@ async function handleSelectMenu(interaction, client) {
             url: "https://discord.gg/KNjWAW3SPb"
         })
         .setDescription(`Hello ${user}, welcome to our support!\n- Please provide a detailed description of your issue\n- Our support team will assist you as soon as possible.\n- Feel free to open another ticket if this was closed.`)
-        .setFooter({ text: 'Your satisfaction is our priority', iconURL: ticketIcons.heartIcon })
+        .setFooter({ text: 'Your satisfaction is our priority', iconURL: "https://cdn.discordapp.com/attachments/1230824451990622299/1230836684774576168/7762-verified-blue.gif?ex=6762ac7d&is=67615afd&hm=b4db917537fa84cf693f73a6fb27749548efe978af9642164ea53bce16ba79a9&"})
         .setColor('#00FF00')
         .setTimestamp();
 
