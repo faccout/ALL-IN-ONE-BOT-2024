@@ -94,7 +94,7 @@ async function monitorConfigChanges(client) {
 }
 
 async function handleSelectMenu(interaction, client) {
-    await interaction.deferReply({ ephemeral: true }); 
+    await interaction.deferReply({ ephemeral: false }); 
 
     const { guild, user, values } = interaction;
     if (!guild || !user) return;
@@ -107,7 +107,7 @@ async function handleSelectMenu(interaction, client) {
 
     const ticketExists = await ticketsCollection.findOne({ guildId, userId });
     if (ticketExists) {
-        return interaction.followUp({ content: 'You already have an open ticket.', ephemeral: true });
+        return interaction.followUp({ content: 'You already have an open ticket.', ephemeral: false });
     }
 
     const ticketChannel = await guild.channels.create({
