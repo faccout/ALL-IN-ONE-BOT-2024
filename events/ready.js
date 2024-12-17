@@ -5,7 +5,7 @@ module.exports = {
     once: true,
     execute(client) {
   
-        const activities = [
+        const activities = [Release on 31st dec
             
         ];
 
