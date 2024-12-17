@@ -6,8 +6,7 @@ module.exports = {
     execute(client) {
   
         const activities = [
-            { name: 'Spella', type: ActivityType.Watching },
-            { name: 'Sonic', type: ActivityType.Playing },
+        
             
         ];
 
