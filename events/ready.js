@@ -20,9 +20,9 @@ module.exports = {
  
         
 
-          function setActivityAndStatus() {
+          
         
-            const activity = 
+            const activity = activities[currentActivityIndex];
             const status = statuses[currentStatusIndex];
               
             client.user.setPresence({
