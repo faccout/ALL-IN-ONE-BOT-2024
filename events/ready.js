@@ -20,7 +20,7 @@ module.exports = {
  
         
 
-          
+          function setActivityAndStatus() {
         
             const activity = activities[currentActivityIndex];
             const status = statuses[currentStatusIndex];
