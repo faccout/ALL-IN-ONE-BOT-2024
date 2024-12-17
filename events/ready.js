@@ -5,8 +5,8 @@ module.exports = {
     once: true,
     execute(client) {
   
-        const activities = [NONE
-        
+        const activities = [
+            { name: 'Sonic', type: ActivityType.Playing},
             
         ];
 
@@ -20,7 +20,11 @@ module.exports = {
  
         
 
-          
+          function setActivityAndStatus() {
+        
+            const activity = 
+            const status = statuses[currentStatusIndex];
+              
             client.user.setPresence({
                 activities: [activity],
                 status: status,
