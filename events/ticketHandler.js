@@ -58,7 +58,7 @@ async function monitorConfigChanges(client) {
                     const embed = new EmbedBuilder()
                         .setAuthor({
                             name: "Welcome to Ticket Support",
-                            iconURL: ticketIcons.mainIcon,
+                            iconURL: "https://cdn.discordapp.com/attachments/1230824451990622299/1252165467842416680/1667-yellow-gears.gif?ex=67627bf7&is=67612a77&hm=2586d7fe8ab865c249c4fa443f967618ee6be7629e0239c49bda6604100c907b&",
                             url: "https://discord.gg/KNjWAW3SPb"
                         })
                         .setDescription('- Please click below menu to create a new ticket.\n\n' +
@@ -135,7 +135,7 @@ async function handleSelectMenu(interaction, client) {
     const ticketEmbed = new EmbedBuilder()
         .setAuthor({
             name: "Support Ticket",
-            iconURL: ticketIcons.modIcon,
+            iconURL: "https://cdn.discordapp.com/attachments/1230824451990622299/1252165467842416680/1667-yellow-gears.gif?ex=67627bf7&is=67612a77&hm=2586d7fe8ab865c249c4fa443f967618ee6be7629e0239c49bda6604100c907b&",
             url: "https://discord.gg/KNjWAW3SPb"
         })
         .setDescription(`Hello ${user}, welcome to our support!\n- Please provide a detailed description of your issue\n- Our support team will assist you as soon as possible.\n- Feel free to open another ticket if this was closed.`)
@@ -156,7 +156,7 @@ async function handleSelectMenu(interaction, client) {
         .setColor(0x0099ff)
         .setAuthor({ 
             name: "Ticket Created!", 
-            iconURL: ticketIcons.correctIcon,
+            iconURL: "https://cdn.discordapp.com/attachments/1230824451990622299/1252165467842416680/1667-yellow-gears.gif?ex=67627bf7&is=67612a77&hm=2586d7fe8ab865c249c4fa443f967618ee6be7629e0239c49bda6604100c907b&",
             url: "https://discord.gg/KNjWAW3SPb"
         })
         .setDescription(`- Your ${ticketType} ticket has been created.`)
@@ -199,7 +199,7 @@ async function handleCloseButton(interaction, client) {
             .setColor(0x0099ff)
             .setAuthor({ 
                 name: "Ticket closed!", 
-                iconURL: ticketIcons.correctrIcon,
+                iconURL: "https://cdn.discordapp.com/attachments/1230824451990622299/1252165467842416680/1667-yellow-gears.gif?ex=67627bf7&is=67612a77&hm=2586d7fe8ab865c249c4fa443f967618ee6be7629e0239c49bda6604100c907b&",
                 url: "https://discord.gg/KNjWAW3SPb"
             })
             .setDescription(`- Your ticket has been closed.`)
