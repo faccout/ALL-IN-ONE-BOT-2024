@@ -65,7 +65,7 @@ async function monitorConfigChanges(client) {
                             '**Ticket Guidelines:**\n' +
                             '- Empty tickets are not permitted.\n' +
                             '- Please be patient while waiting for a response from our support team.')
-                        .setFooter({ text: 'We are here to Help!', iconURL: ticketIcons.modIcon })
+                        .setFooter({ text: 'We are here to Help!', iconURL: "https://cdn.discordapp.com/attachments/1230824451990622299/1230836684774576168/7762-verified-blue.gif?ex=6762ac7d&is=67615afd&hm=b4db917537fa84cf693f73a6fb27749548efe978af9642164ea53bce16ba79a9&" })
                         .setColor('#00FF00')
                         .setTimestamp();
 
