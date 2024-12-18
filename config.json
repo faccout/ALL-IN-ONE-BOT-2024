@@ -22,9 +22,9 @@
     },
      "lavalink": {
         "lavalink": {
-            "host": "lavalink.anantix.network",
-            "port": 2335,
-            "password": "pg6|(}7fuD_:7d#QQq?9",
+            "host": "lavalink.jirayu.net",
+            "port": 13592,
+            "password": "youshallnotpass",
             "secure": false
         }
     }, 
