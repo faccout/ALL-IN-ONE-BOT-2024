@@ -15,8 +15,8 @@ module.exports = {
             .setColor('#b300ff')
             .setAuthor({
                 name: lang.supportTitle,
-                iconURL: lang.supportIconURL,
-                url: supportServerLink
+                iconURL: "https://cdn.discordapp.com/attachments/1273947742724685875/1277995111422361631/59CB4C83-CB04-428B-BF26-6E82A1981F83.png?ex=676381f2&is=67623072&hm=641ee6e343e5c6e9604ef8feb48186871c954dc89ee214b7e4162da4dd476dff&",
+                url: "https://discord.gg/2gzCDFVhUP"
             })
             .setDescription(`
                 ➡️ **${lang.supportDescriptionTitle}:**
