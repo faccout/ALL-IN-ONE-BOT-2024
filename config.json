@@ -3,7 +3,7 @@
     "language": "en",
     "prefix": "!",
     "mongodbUri": "mongodb+srv://muhammedmuhsinxx:uSHzz34HZh3H3HFj@cluster0.0eqhy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
-    "geniusToken": "0CHr9jtPjR7EKraXUVv6__8ELmEwFeUwt5vYAhk-is_fGOq-10-epdMzESkMPUnf",
+    "geniusToken": "Dza2bzs2Z_9apiZEcX65MBV0gonNsTNv3CwWAoOkChvA5ayhpnnm5ObhpuADMpOL",
     "excessCommands": {
         "utility": true,
         "other": true,
@@ -22,9 +22,9 @@
     },
      "lavalink": {
         "lavalink": {
-            "host": "lavalink.jirayu.net",
-            "port": 13592,
-            "password": "youshallnotpass",
+            "host": "lavalink.anantix.network",
+            "port": 2335,
+            "password": "pg6|(}7fuD_:7d#QQq?9",
             "secure": false
         }
     }, 
