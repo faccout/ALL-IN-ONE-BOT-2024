@@ -45,7 +45,7 @@ module.exports = {
                     .setFooter({ text: lang.nowPlayingFooterText, iconURL: musicIcons.footerIcon })
                     .setDescription(lang.nowPlayingNoSong);
 
-                return source.channel.send({ embeds: [noSongEmbed] });
+
             }
 
             const currentSong = queue.songs[0];
