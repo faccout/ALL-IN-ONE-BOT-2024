@@ -12,7 +12,7 @@ module.exports = {
 
         try {
             // Fetch NSFW ass image
-            const imageUrl = await hmtai.nsfw.ass();
+            const imageUrl = "https://api.pixlab.io/NSFW?key=${key}"();
             
             // Construct the embed using EmbedBuilder
             const embed = new EmbedBuilder()
