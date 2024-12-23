@@ -106,7 +106,9 @@ async function handleSelectMenu(interaction, client) {
     if (!settings) return;
 
     const ticketExists = await ticketsCollection.findOne({ guildId, userId });
-   
+    if (ticketExists) {
+        return interaction.followUp({ content: 'You already have an open ticket.', ephemeral: true });
+    }
 
     const ticketChannel = await guild.channels.create({
         name: `${user.username}-${ticketType}-ticket`,
