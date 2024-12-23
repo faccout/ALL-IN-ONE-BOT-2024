@@ -40,7 +40,7 @@ module.exports = {
                     .setAuthor({ 
                         name: lang.nowPlayingNoSongTitle, 
                         iconURL: musicIcons.wrongIcon,
-                        url: "https://discord.gg/KNjWAW3SPb"
+                        url: "https://discord.gg/uwVGgwHV3T"
                     })
                     .setFooter({ text: lang.nowPlayingFooterText, iconURL: musicIcons.footerIcon })
                     .setDescription(lang.nowPlayingNoSong);
@@ -54,7 +54,7 @@ module.exports = {
                 .setAuthor({ 
                     name: lang.nowPlayingTitle, 
                     iconURL: musicIcons.playerIcon,
-                    url: "https://discord.gg/KNjWAW3SPb"
+                    url: "https://discord.gg/uwVGgwHV3T"
                 })
                 .setDescription(`- ${lang.nowPlayingDescriptionText}\n[${currentSong.name}](${currentSong.url})`)
                 .setFooter({ text: lang.nowPlayingFooterText, iconURL: musicIcons.footerIcon })
@@ -73,7 +73,7 @@ module.exports = {
                     .setAuthor({ 
                         name: lang.nowPlayingNoQueueTitle, 
                         iconURL: musicIcons.wrongIcon,
-                        url: "https://discord.gg/KNjWAW3SPb"
+                        url: "https://discord.gg/uwVGgwHV3T"
                     })
                     .setFooter({ text: lang.nowPlayingFooterText, iconURL: musicIcons.footerIcon })
                     .setDescription(lang.nowPlayingNoQueue);
