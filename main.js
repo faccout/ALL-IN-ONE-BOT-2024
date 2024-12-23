@@ -202,10 +202,10 @@ client.distube
 
                
                 const embed = {
-                    color: 0xDC92FF, 
+                    color: 0x20514c, 
                     author: {
                         name: 'Now playing', 
-                        url: 'https://discord.gg/xQF9f9yUEM',
+                        url: 'https://discord.gg/KNjWAW3SPb',
                         icon_url: musicIcons.playerIcon 
                     },
                     description: `- Song name: **${song.name}** \n- Duration: **${song.formattedDuration}**\n- Requested by: ${song.user}`,
@@ -239,7 +239,7 @@ client.distube
                     },
                     author: {
                         name: 'Song added sucessfully', 
-                        url: 'https://discord.gg/xQF9f9yUEM',
+                        url: 'https://discord.gg/KNjWAW3SPb',
                         icon_url: musicIcons.correctIcon 
                     },
                     timestamp: new Date().toISOString() 
@@ -278,10 +278,9 @@ client.distube
                 authorColor: "#FF7A00",
                 progress: 50,
                 imageDarkness: 60,
-                backgroundImage: backgroundImage, 
-                nameColor: "#FFFFFF",
-                progressColor: "#FF7A00",
-                progressBarColor: "#5F2D00",
+                backgroundImage: "https://cdn.discordapp.com/attachments/1290281849075007519/1317847060598489098/Picsart_24-12-15_16-30-37-737.png?ex=676ab837&is=676966b7&hm=32e0bd59449207ca43a75b5f1efcd1d7c345d48fed84f8bea4db7f64fbe5e92d&", 
+                nameColor: "#808080", 
+                progressBarColor: "#FFFFFF",
             });
     
             return musicCard;
