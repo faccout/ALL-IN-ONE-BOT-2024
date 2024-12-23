@@ -279,7 +279,7 @@ client.distube
                 progress: 25,
                 imageDarkness: 80,
                 backgroundImage: "https://cdn.discordapp.com/attachments/1290281849075007519/1320783050489073704/Picsart_24-12-23_18-54-39-146.jpg?ex=676ada92&is=67698912&hm=1e8aa0dfdf4c58dfe095b5a57f77d893a1748c96c9a3738aad26d5f0719a0b49&", 
-                nameColor: "#808080", 
+                nameColor: "#FFFFFF", 
                 progressBarColor: "#FFFFFF",
             });
     
@@ -299,7 +299,7 @@ app.get('/', (req, res) => {
     res.sendFile(imagePath);
 });
 app.listen(port, () => {
-    console.log(`🔗 Listening to GlaceYT : http://localhost:${port}`);
+    console.log(`🔗 Listening to BOLT : http://localhost:${port}`);
 });
 
 client.login(process.env.TOKEN);
