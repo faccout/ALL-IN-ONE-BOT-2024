@@ -30,8 +30,7 @@ module.exports = {
 
             const permissions = voiceChannel.permissionsFor(source.client.user);
             if (!permissions.has('CONNECT') || !permissions.has('SPEAK')) {
-                return source.channel.send(lang.nowPlayingNoPermissions);
-            }
+                
 
             const queue = source.client.distube.getQueue(source.guildId);
             if (!queue || !queue.playing) {
@@ -63,7 +62,7 @@ module.exports = {
                     { name: lang.nowPlayingRequestedBy, value: currentSong.user.username }
                 );
 
-            return source.channel.send({ embeds: [nowPlayingEmbed] });
+            
         } catch (error) {
             console.error(error);
 
