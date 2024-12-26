@@ -22,9 +22,9 @@
     },
      "lavalink": {
         "lavalink": {
-            "host": "lava.inzeworld.com",
-            "port": 3128,
-            "password": "saher.inzeworld.com",
+            "host": "lavalink.ipv4.oreshi.com",
+            "port": 2333,
+            "password": "mfkdlgmklmlenrfmklsdmnfkldnslkansdlknfdlksnflksdnkf",
             "secure": false
         }
     }, 
