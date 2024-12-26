@@ -27,13 +27,7 @@ downloadJpeg: "▶️ Download JPEG",
     channelMentionValid: 'Please mention a valid channel.',
     //invite.js
     inviteTitle: "Invite Link",
-    inviteDescription: "🚀 Introducing Bolt – The All-in-One Discord Bot! ⚡
-With 200+ powerful commands, Bolt is here to revolutionize your server! Whether you need advanced moderation tools, fun entertainment features, or handy utilities, Bolt has it all. 🌟
-🎉 Why invite Bolt?
-✅ Versatile features for every server need
-✅ Easy-to-use commands for seamless management
-✅ Constant updates and top-notch performance
-Don't miss out—[invite Bolt today]({inviteURL}) and unlock the full potential of your server!",
+    inviteDescription: "**Bolt is a multipurpose Discord bot with over 200 commands designed to enhance your server experience. From advanced moderation tools to fun entertainment features and useful utilities, Bolt has everything you need in one powerful package. Easy to use and constantly updated, Bolt is the perfect addition to any server. [Invite Bolt]({inviteURL}) today and transform the way you manage and enjoy your community!**",
     inviteImageURL: "https://cdn.discordapp.com/attachments/1246408947708072027/1256597293323256000/invite.png?ex=668158ed&is=6680076d&hm=030c83f567ffdaf0bebb95e50baaec8bb8a8394fa1b7717cc43c3622447f58e3&",
     //ping.js
     pingDescription: "Ping!",
