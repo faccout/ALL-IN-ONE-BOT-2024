@@ -1,7 +1,7 @@
 {
     "token": "MTI4MTk5NjA3OTM2MTE2NzQ5Ng.GwRUd9.GG0s7iYbwbIu13T6d12Dul9sZ7vg6zvrEvXRe8",
     "language": "en",
-    "prefix": "!",
+    "prefix": "1",
     "mongodbUri": "mongodb+srv://muhammedmuhsinxx:uSHzz34HZh3H3HFj@cluster0.0eqhy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
     "geniusToken": "Dza2bzs2Z_9apiZEcX65MBV0gonNsTNv3CwWAoOkChvA5ayhpnnm5ObhpuADMpOL",
     "excessCommands": {
